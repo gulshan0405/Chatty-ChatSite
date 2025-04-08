@@ -1,4 +1,4 @@
 @import "tailwindcss";
-@plugin "daisyui";
-
-
+@plugin "daisyui" {
+  themes: dark,light,retro,cupcake,bumblebee,emerald,corporate,synthwave,cyberpunk,valentine,helloween.garden,forest,aqua,lofi,pastel,fantasy,wireFrame,black,luxury,dracula,cmyk,autumn,businuss,acid,lemonade,night,coffee,winter,dim,nord,sunset,caramallate.abyss,slik;
+}

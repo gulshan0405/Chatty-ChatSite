@@ -25,7 +25,7 @@ const App = () => {
     );
 
   return (
-    <div>
+    <div data-theme="retro" className="h-">
       <Navbar />
       <Routes>
         <Route path="/" element={authUser ? <Homepage /> : <Navigate to="/login" />} />
